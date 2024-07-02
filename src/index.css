@@ -2,27 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #A3D9A5;
   --secondary-color: #1A3E59;
-  --text-color: #707070
-  --contrast-color: #5A9BD5;
+  --text-color: #707070 --contrast-color: #5A9BD5;
   --font-family-text: 'Roboto', sans-serif;
   --font-family-title: 'Montserrat', sans-serif;
 }
 
-body{
+body {
   font-family: var(--font-family-text);
   background-color: #F9F9F9;
   height: 100vh;
 }
 
-#root{
+#root {
   height: 100%;
 }
